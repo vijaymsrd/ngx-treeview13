@@ -1,0 +1,55 @@
+{
+  "name": "ngx-treeview",
+  "version": "13.0.0",
+  "license": "MIT",
+  "description": "An Angular treeview component with checkbox",
+  "keywords": [
+    "ng",
+    "ngx",
+    "angular",
+    "ngx-treeview",
+    "tree",
+    "treeview",
+    "tree-view",
+    "checkbox",
+    "dropdown",
+    "recursive",
+    "angular tree component"
+  ],
+  "author": "Leo Vo <leovo2708@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leovo2708/ngx-treeview.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leovo2708/ngx-treeview/issues"
+  },
+  "peerDependencies": {
+    "@angular/common": "^13.0.0",
+    "@angular/core": "^13.0.0",
+    "lodash": "^4.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "module": "fesm2015/ngx-treeview.mjs",
+  "es2020": "fesm2020/ngx-treeview.mjs",
+  "esm2020": "esm2020/ngx-treeview.mjs",
+  "fesm2020": "fesm2020/ngx-treeview.mjs",
+  "fesm2015": "fesm2015/ngx-treeview.mjs",
+  "typings": "ngx-treeview.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./ngx-treeview.d.ts",
+      "esm2020": "./esm2020/ngx-treeview.mjs",
+      "es2020": "./fesm2020/ngx-treeview.mjs",
+      "es2015": "./fesm2015/ngx-treeview.mjs",
+      "node": "./fesm2015/ngx-treeview.mjs",
+      "default": "./fesm2020/ngx-treeview.mjs"
+    }
+  },
+  "sideEffects": false
+}
