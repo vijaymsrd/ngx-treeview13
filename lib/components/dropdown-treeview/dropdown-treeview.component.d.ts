@@ -5,6 +5,7 @@ import { TreeviewConfig } from '../../models/treeview-config';
 import { TreeviewComponent } from '../treeview/treeview.component';
 import { TreeviewHeaderTemplateContext } from '../../models/treeview-header-template-context';
 import { TreeviewItemTemplateContext } from '../../models/treeview-item-template-context';
+import { DropdownDirective } from '../../directives/dropdown.directive';
 import * as i0 from "@angular/core";
 export declare class DropdownTreeviewComponent {
     i18n: TreeviewI18n;
@@ -17,6 +18,7 @@ export declare class DropdownTreeviewComponent {
     selectedChange: EventEmitter<any[]>;
     filterChange: EventEmitter<string>;
     treeviewComponent: TreeviewComponent;
+    dropdownDirective: DropdownDirective;
     buttonLabel: string;
     constructor(i18n: TreeviewI18n, defaultConfig: TreeviewConfig);
     onSelectedChange(values: any[]): void;
